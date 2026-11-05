@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+modelo_fuente/
+modelos/
+campanas/
+configuraciones/
+informes_automaticos/
+diagnosticos/
+referencias_base/
+ULTIMO_INFORME.*
+automatico_*.json
+modelo_oficial.json

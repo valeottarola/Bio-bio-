@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "model": "MNMFNuevo_LEVEES_02NOV",
+  "source_project": "modelo_fuente/MNMFNuevo.prj",
+  "geometry_sha256": "f0240fac4a40b00da4f695c56e102a1d28fe43fc5cd1627efd1b257d92645bf8",
+  "river": "Biobio",
+  "profiles": [
+    "PF 1",
+    "PF 2",
+    "PF 3",
+    "PF 4",
+    "PF 5",
+    "PF 6"
+  ],
+  "profile_month_correspondence_inferred": {
+    "PF 1": "Enero 1994",
+    "PF 2": "Febrero 1994",
+    "PF 3": "Marzo 1994",
+    "PF 4": "Junio 1994",
+    "PF 5": "Julio 1994",
+    "PF 6": "Agosto 1994"
+  },
+  "spacings_m": [
+    2000,
+    1000,
+    500,
+    250
+  ],
+  "intervals": "all",
+  "campaign": "BIOBIO_SENSIBILIDAD_VIGENTE",
+  "tolerances": {
+    "wse_m": 0.05,
+    "velocity_ms": 0.05,
+    "hydraulic_depth_m": 0.05,
+    "froude": 0.05
+  },
+  "limits": {
+    "max_extra_cases": 2,
+    "max_total_sections": 1500,
+    "case_timeout_seconds": 600,
+    "optimization_seconds": 1800,
+    "minimum_spacing_m": 62.5
+  },
+  "notes": [
+    "Levees conservados en originales. Revisar extensión lateral del flujo de las secciones nuevas.",
+    "Comparar refinamientos sucesivos con los seis perfiles."
+  ],
+  "levee_policy": "solo_originales"
+}
